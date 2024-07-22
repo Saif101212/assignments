@@ -1,0 +1,153 @@
+:root {
+    --main-color: #0078FF;
+    --main-color-rgb: rgb(0, 120, 255);
+    --body-color: #4e4e4e;
+    --black-color: #1e1e1e;
+    --white-color: #ffffff;
+    --black-opacity-bg-navbar-rgba: rgb(0, 0, 0, 0.9);
+    --bg-color-body: #F5F5F5;
+}
+
+body {
+    background-color: var(--bg-color-body);
+    height: 10000vh;
+    color: var(--body-color);
+}
+
+.bg-white-color {
+
+    background-color: var(--white-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+/* start navbar */
+.my-bg-xs {
+    background-color: var(--white-color);
+}
+
+.navbar-brand {
+    --bs-navbar-brand-color: var(--white-color)
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: var(--white-color);
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: var(--main-color) !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--black-color);
+    margin-top: 0.75rem;
+}
+
+.my-ancour-design>ul>li>a {
+    position: relative;
+}
+
+.my-ancour-design>ul>li>a::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    bottom: -5px;
+    left: 0.5rem;
+    visibility: hidden;
+
+    background-color: rgb(255, 255, 255);
+    width: 0;
+    transition: width 0.3s ease-in-out 0s;
+}
+
+/* end navbar */
+/* start home */
+.home {
+    background-image: url(../imges/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--white-color);
+}
+
+.home .layar {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+
+}
+
+.content h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.content span {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.text-type::after {
+    content: "";
+    animation: hero-animation 10s infinite ease-out;
+    border-right: 4px solid white;
+    padding-right: 5px;
+    height: 2px;
+
+}
+
+/* end home  */
+/* section about */
+/* section about(left-side) */
+.about-container {
+    margin-top: 4.3rem;
+}
+
+
+
+
+
+@media (min-width:575px) {
+
+    /* nav bar  md~xxl  */
+    .my-navbar {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .my-bg-xs {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .my-ancour-design>ul>li>a.active::before {
+        visibility: visible;
+        width: 60%;
+    }
+
+    .my-ancour-design>ul>li>a:hover::before {
+        visibility: visible;
+        width: 60%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: var(--white-color) !important;
+        margin-right: 0.75rem;
+    }
+
+    .navbar .nav-link:hover {
+        color: var(--white-color) !important;
+
+    }
+
+    /* hero md~xxl */
+    .content h1 {
+        font-weight: 600;
+        font-size: 4.5rem;
+    }
+
+    .content span {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+}

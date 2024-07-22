@@ -1,0 +1,289 @@
+@keyframes hero-animation {
+    0% {
+        content: "D";
+    }
+
+    1.4% {
+        content: "De";
+    }
+
+    2.8% {
+        content: "Des";
+    }
+
+    4.2% {
+        content: "Desi";
+    }
+
+    5.6% {
+        content: "Desig";
+    }
+
+    7% {
+        content: "Design";
+    }
+
+    8.4% {
+        content: "Designe";
+    }
+
+    9.8% {
+        content: "Designer";
+    }
+
+    11.2% {
+        content: "Designe";
+    }
+
+    12.6% {
+        content: "Design";
+    }
+
+    15.4% {
+        content: "Desig";
+    }
+
+    16.8% {
+        content: "Desi";
+    }
+
+    18.2% {
+        content: "Des";
+    }
+
+    19.6% {
+        content: "De";
+    }
+
+    21% {
+        content: "Dev";
+    }
+
+    22.4% {
+        content: "Deve";
+    }
+
+    23.8% {
+        content: "Devel";
+    }
+
+    25.2% {
+        content: "Develo";
+    }
+
+    26.6% {
+        content: "Develop";
+    }
+
+    28% {
+        content: "Develope";
+    }
+
+    29.4% {
+        content: "Developer";
+    }
+
+    30.8% {
+        content: "Develope";
+    }
+
+    32.2% {
+        content: "Develop";
+    }
+
+    33.6% {
+        content: "Develo";
+    }
+
+    35% {
+        content: "Devel";
+    }
+
+    36.4% {
+        content: "Deve";
+    }
+
+    37.8% {
+        content: "Dev";
+    }
+
+    39.2% {
+        content: "De";
+    }
+
+    40.6% {
+        content: "D";
+    }
+
+    42% {
+        content: "F";
+    }
+
+    43.4% {
+        content: "Fr";
+    }
+
+    44.8% {
+        content: "Fre";
+    }
+
+    46.2% {
+        content: "Free";
+    }
+
+    47.6% {
+        content: "Freel";
+    }
+
+    49% {
+        content: "Freela";
+    }
+
+    50.4% {
+        content: "Freelan";
+    }
+
+    51.8% {
+        content: "Freelanc";
+    }
+
+    53.2% {
+        content: "Freelance";
+    }
+
+    54.6% {
+        content: "Freelancer";
+    }
+
+    56% {
+        content: "Freelance";
+    }
+
+    57.4% {
+        content: "Freelanc";
+    }
+
+    58.4% {
+        content: "Freelan";
+    }
+
+    60.2% {
+        content: "Freela";
+    }
+
+    61.6% {
+        content: "Freel";
+    }
+
+    63% {
+        content: "Free";
+    }
+
+    64.4% {
+        content: "Fre";
+    }
+
+    65.8% {
+        content: "Fr";
+    }
+
+    67.2% {
+        content: "F";
+    }
+
+    68.6% {
+        content: "P";
+    }
+
+    70% {
+        content: "Ph";
+    }
+
+    71.4% {
+        content: "Pho";
+    }
+
+    72.8% {
+        content: "Phot";
+    }
+
+    74.2% {
+        content: "Photo";
+    }
+
+    75.6% {
+        content: "Photog";
+    }
+
+    77% {
+        content: "Photogr";
+    }
+
+    78.4% {
+        content: "Photogra";
+    }
+
+    79.8% {
+        content: "Photograp";
+    }
+
+    81.2% {
+        content: "Photograph";
+    }
+
+    82.6% {
+        content: "Photographe";
+    }
+
+    84% {
+        content: "Photographer";
+    }
+
+    85.4% {
+        content: "Photographe";
+    }
+
+    86.8% {
+        content: "Photograph";
+    }
+
+    88.2% {
+        content: "Photograp";
+    }
+
+    89.6% {
+        content: "Photogra";
+    }
+
+    91% {
+        content: "Photogr";
+    }
+
+    92.4% {
+        content: "Photog";
+    }
+
+    93.8% {
+        content: "Photo";
+    }
+
+    95.2% {
+        content: "Phot";
+    }
+
+    96.6% {
+        content: "Pho";
+    }
+
+    98% {
+        content: "Ph";
+    }
+
+    100% {
+        content: "P";
+    }
+
+
+
+
+}
